@@ -1,0 +1,30 @@
+/* @tailwind base; */
+@tailwind base;
+/* @tailwind components; */
+@tailwind components;
+/* @tailwind utilities; */
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 249, 249, 249;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+@layer components {
+  .sidebar-item {
+    @apply flex items-center pt-2 pb-2 px-4 text-neutral-700 hover:bg-blue-50 rounded-md transition-colors duration-150;
+  }
+  
+  .sidebar-item.active {
+    @apply bg-primary-100 text-primary-700;
+  }
+  
+  .sidebar-subitem {
+    @apply pl-8 pt-2 pb-2 text-sm text-neutral-600 hover:bg-primary-50 rounded-md transition-colors duration-150;
+  }
+}

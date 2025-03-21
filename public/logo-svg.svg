@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="10" fill="#f0f9f0" />
+  <path d="M25 30 H75 V70 H25 Z" fill="#5cb85c" />
+  <path d="M30 35 H70 V65 H30 Z" fill="#f0f9f0" />
+  <path d="M35 40 H65 V60 H35 Z" fill="#5cb85c" />
+  <text x="37" y="53" font-family="Arial" font-size="10" font-weight="bold" fill="#f0f9f0">DocTrab</text>
+</svg>
