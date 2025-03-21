@@ -1,9 +1,13 @@
 import Card from "@/components/ui/Card";
+import ApiStatusWidget from "@/components/dashboard/ApiStatusWidget";
 
 export default function Dashboard() {
   return (
     <div className="space-y-6">
       <h1 className="text-2xl font-bold text-neutral-800">Dashboard</h1>
+      
+      {/* Widget de status da API */}
+      <ApiStatusWidget />
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         <Card className="bg-primary-50 border-primary-200">
